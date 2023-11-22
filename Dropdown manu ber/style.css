@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.Menu_Bar {
+   
+    background-color: rgb(17, 1, 10);
+    height: 80px;
+    width: 98%;
+    padding:12.20px 13.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Logo{
+    padding: 10px;
+    color: burlywood;
+    font-size: 40px;
+    font-family: 'Mate SC'
+}
+.Logo span{
+    color: rgb(209, 50, 148);
+    font-size: 40px;
+    font-family: 'Mate SC'
+}
+.Menu_Bar ul{
+    list-style: none;
+    display: flex;
+}
+
+.Menu_Bar ul li{
+    padding: 20px 35px;
+    position: relative;
+}
+
+
+.Menu_Bar ul li a {
+    color:burlywood;
+    text-decoration:none;
+   font-size:20px;
+   transition: all 0.3s;
+
+    
+}
+.Menu_Bar ul li a:hover{
+
+    color:rgba(14, 177, 136, 0.829);
+     
+
+}
+.Dropdown_Manu{
+    display:none;
+}
+.Menu_Bar ul li:hover .Dropdown_Manu{
+  display:block;
+  position: absolute;
+    left: 0%;
+    top: 100%;
+    background-color: rgb(15, 1, 11);
+
+}
+.Dropdown_Manu ul{
+ display: block;
+margin: 10px;
+padding: 10px;
+
+}
+.Dropdown_Manu ul li{
+    width: 110px;
+    padding: 10px;
+}
+.fas{
+
+    float: right;
+    margin-left:10px;
+    padding-top:3px;
+}
+.Dropdown_Manu-1{
+    display:none;
+}
+
+.Dropdown_Manu ul li:hover .Dropdown_Manu-1{
+    display:block;
+    position: absolute;
+      left: 110%;
+      top:0%;
+      background-color: rgb(15, 1, 11);
+  
+  }
+ .Dropdown_Manu-1 ul{
+    display: block;;
+    margin-right:10px;
+    padding-top:5px;
+
+ }
+.Nature img{
+ height: 550px;
+width: 100%;
+background-position:center; 
+background-repeat: no-repeat;
+}
+   
+
+
+
+
+
+
+
+
+
